@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970003340920",
+    "project_id": "cocina-bb06c",
+    "storage_bucket": "cocina-bb06c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970003340920:android:123db1fc117f8dd7e9978d",
+        "android_client_info": {
+          "package_name": "com.PDM.escuelacocina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmbX5J5Kklm49bkm8rTLfxFuHt_DGA_4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
