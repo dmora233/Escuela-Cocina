@@ -93,6 +93,31 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: HomeWidget.routeName,
           path: HomeWidget.routePath,
           builder: (context, params) => HomeWidget(),
+        ),
+        FFRoute(
+          name: PerfilWidget.routeName,
+          path: PerfilWidget.routePath,
+          builder: (context, params) => PerfilWidget(),
+        ),
+        FFRoute(
+          name: NotificacionesWidget.routeName,
+          path: NotificacionesWidget.routePath,
+          builder: (context, params) => NotificacionesWidget(),
+        ),
+        FFRoute(
+          name: CrearNotificacionWidget.routeName,
+          path: CrearNotificacionWidget.routePath,
+          builder: (context, params) => CrearNotificacionWidget(),
+        ),
+        FFRoute(
+          name: NotificacionesADMINWidget.routeName,
+          path: NotificacionesADMINWidget.routePath,
+          builder: (context, params) => NotificacionesADMINWidget(),
+        ),
+        FFRoute(
+          name: MenuAdminWidget.routeName,
+          path: MenuAdminWidget.routePath,
+          builder: (context, params) => MenuAdminWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

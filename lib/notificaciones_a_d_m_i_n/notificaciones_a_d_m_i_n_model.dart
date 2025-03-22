@@ -1,9 +1,10 @@
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
-import 'home_widget.dart' show HomeWidget;
+import 'notificaciones_a_d_m_i_n_widget.dart' show NotificacionesADMINWidget;
 import 'package:flutter/material.dart';
 
-class HomeModel extends FlutterFlowModel<HomeWidget> {
+class NotificacionesADMINModel
+    extends FlutterFlowModel<NotificacionesADMINWidget> {
   @override
   void initState(BuildContext context) {}
 
